@@ -21,3 +21,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CREATE_LOG_FILES: true
+          LOG_FILE: 'log.log'
+          OUTPUT_FOLDER: Reports
